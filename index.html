@@ -7,37 +7,35 @@
   <script src="javascr.js"></script>
   <style>
 
-
-    .progress-bar {
+.progress-bar {
   width: 100%;
-  height: 20px;
-  background-color: #f0f0f0;
+  background-color: #f2f2f2;
   border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
 }
 
 .progress {
-  height: 100%;
-  background-color: #9c27b0; /* Cambiado a morado */
-  transition: width 0.5s ease;
-  border-radius: 10px 0 0 10px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #d8b7ff; /* Morado claro */
 }
 
-#percentageInput {
-  width: 80px;
-  padding: 5px;
-  font-size: 16px;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  outline: none;
+.progress-text {
+  text-align: center;
+  line-height: 20px;
+  color: #fffff;
+  font-weight: bold;
 }
 
-#percentageInput:focus {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
+.progress-redaccion-legal { width: 80%; }
+.progress-litigio { width: 70%; }
+.progress-mediacion { width: 60%; }
+.progress-manejo-procedimientos { width: 90%; }
+.progress-contratacion-negociacion { width: 85%; }
+.progress-gestion-documentacion { width: 75%; }
+.progress-manejo-compranet { width: 65%; }
+.progress-atencion-cliente { width: 95%; }
+.progress-trabajo-presion { width: 85%; }
     body {
       font-family: Arial, sans-serif;
       margin: 0;
